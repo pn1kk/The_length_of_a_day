@@ -1,14 +1,35 @@
 # Day Length Research
 
-# Overview
+## Overview
 This repository contains research on modeling the length of day based on the day number in the year. The project investigates the trigonometric relationship between day length and time, with validation using data from Ramenskoye, Russia.
 
-# Research Objectives
+## Research Objectives
 1. Investigate the dependence of day length on its sequence number in the year
 2. Create a mathematical function to predict day length based on day number
 
-# Key Findings
+## Key Findings
 - Day length follows a cosine function pattern
 - Model: y = 314 * cos(2πx/365 - 69π/73) + 737 (minutes)
 - Maximum day length: 1051 minutes (June 21-22)
 - Minimum day length: 423 minutes (December 21-22)
+
+## Data
+Raw data collected from weather archives for Ramenskoye (2023) with day number (1-365) and day length in minutes. Source: https://arhivpogodi.ru/arhiv/ramenskoye/2023/10
+
+## Installation & Usage
+
+### Prerequisites
+- Python 3.8+
+- pip
+
+### Setup
+```bash
+# Clone repository
+git clone https://github.com/yourusername/day-length-research.git
+cd day-length-research
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run analysis
+python src/modeling.py

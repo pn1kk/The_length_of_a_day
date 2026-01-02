@@ -15,21 +15,3 @@ This repository contains research on modeling the length of day based on the day
 
 ## Data
 Raw data collected from weather archives for Ramenskoye (2023) with day number (1-365) and day length in minutes. Source: https://arhivpogodi.ru/arhiv/ramenskoye/2023/10
-
-## Installation & Usage
-
-### Prerequisites
-- Python 3.8+
-- pip
-
-### Setup
-```bash
-# Clone repository
-git clone https://github.com/yourusername/day-length-research.git
-cd day-length-research
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run analysis
-python src/modeling.py
